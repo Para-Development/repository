@@ -70,8 +70,8 @@ Add-MavenArtifact `
 Add-MavenArtifact `
     -GroupId "me.zowpy.core" `
     -ArtifactId "api" `
-    -Version "1.0-SNAPSHOT" `
-    -JarFile ".\provided\volcano-api-1.0-SNAPSHOT.jar"
+    -Version "1.0" `
+    -JarFile ".\provided\volcano-api-1.0.jar"
 
 Add-MavenArtifact `
     -GroupId "aqua.core" `
