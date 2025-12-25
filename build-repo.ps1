@@ -64,7 +64,7 @@ Add-MavenArtifact `
 Add-MavenArtifact `
     -GroupId "com.sk89q.worldedit" `
     -ArtifactId "worldedit-bukkit" `
-    -Version "6.1.9" `
+    -Version "6.1.7;dd00bb1" `
     -JarFile ".\provided\WorldEdit-1.8.8.jar"
 
 Write-Host "Repository was updated successfully."
