@@ -52,7 +52,7 @@ Add-MavenArtifact `
 Add-MavenArtifact `
     -GroupId "com.boydti.fawe" `
     -ArtifactId "FastAsyncWorldEdit" `
-    -Version "1.16.5-799" `
+    -Version "6.1.9-caf0ad9" `
     -JarFile ".\provided\FastAsyncWorldEdit-1.8.8.jar"
 
 Add-MavenArtifact `

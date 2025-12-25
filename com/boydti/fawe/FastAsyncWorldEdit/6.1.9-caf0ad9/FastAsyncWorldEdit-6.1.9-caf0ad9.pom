@@ -5,6 +5,6 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.boydti.fawe</groupId>
     <artifactId>FastAsyncWorldEdit</artifactId>
-    <version>1.16.5-799</version>
+    <version>6.1.9-caf0ad9</version>
     <packaging>jar</packaging>
 </project>
