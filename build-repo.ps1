@@ -24,8 +24,7 @@ function Add-MavenArtifact {
     $TargetJar = Join-Path $ArtifactPath "$ArtifactId-$Version.jar"
     Copy-Item $JarFile $TargetJar -Force
 
-    # Generate minimal POM
-    $PomContent = @"
+$PomContent = @"
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
@@ -49,5 +48,23 @@ Add-MavenArtifact `
     -ArtifactId "pulse-spigot-api" `
     -Version "1.8.8-R0.1" `
     -JarFile ".\provided\pulse-spigot-api-1.8.8-R0.1.jar"
+
+Add-MavenArtifact `
+    -GroupId "com.boydti.fawe" `
+    -ArtifactId "FastAsyncWorldEdit" `
+    -Version "1.16.5-799" `
+    -JarFile ".\provided\FastAsyncWorldEdit-1.8.8.jar"
+
+Add-MavenArtifact `
+    -GroupId "org.bukkit" `
+    -ArtifactId "craftbukkit" `
+    -Version "1.8.8" `
+    -JarFile ".\provided\CraftBukkit-1.8.8.jar"
+
+Add-MavenArtifact `
+    -GroupId "com.sk89q.worldedit" `
+    -ArtifactId "worldedit-bukkit" `
+    -Version "6.1.9" `
+    -JarFile ".\provided\WorldEdit-1.8.8.jar"
 
 Write-Host "Repository was updated successfully."
