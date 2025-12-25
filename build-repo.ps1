@@ -79,4 +79,10 @@ Add-MavenArtifact `
     -Version "2.2.7" `
     -JarFile ".\provided\aqua-core-api-1.0.jar"
 
+Add-MavenArtifact `
+    -GroupId "com.boydti.fawe" `
+    -ArtifactId "FastAsyncWorldEdit" `
+    -Version "21.03.26-b67f782-1287-22.3.10" `
+    -JarFile ".\provided\FastAsyncWorldEdit-1.8.8-21.03.26.jar"
+
 Write-Host "Repository was updated successfully."
