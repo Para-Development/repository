@@ -47,7 +47,7 @@ function Add-MavenArtifact {
 Add-MavenArtifact `
     -GroupId "xyz.krypton.spigot" `
     -ArtifactId "pulse-spigot-api" `
-    -Version "1.8.8-R0.1-SNAPSHOT" `
+    -Version "1.8.8-R0.1" `
     -JarFile ".\provided\pulsespigot-api-1.8.8-R0.1-SNAPSHOT.jar"
 
 
