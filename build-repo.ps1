@@ -67,4 +67,16 @@ Add-MavenArtifact `
     -Version "6.1.7;dd00bb1" `
     -JarFile ".\provided\WorldEdit-1.8.8.jar"
 
+Add-MavenArtifact `
+    -GroupId "me.zowpy.core" `
+    -ArtifactId "api" `
+    -Version "1.0-SNAPSHOT" `
+    -JarFile ".\provided\volcano-api-1.0-SNAPSHOT.jar"
+
+Add-MavenArtifact `
+    -GroupId "aqua.core" `
+    -ArtifactId "AquaCoreAPI" `
+    -Version "2.2.7" `
+    -JarFile ".\provided\aqua-core-api-1.0.jar"
+
 Write-Host "Repository was updated successfully."
