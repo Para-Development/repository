@@ -48,7 +48,6 @@ Add-MavenArtifact `
     -GroupId "xyz.krypton.spigot" `
     -ArtifactId "pulse-spigot-api" `
     -Version "1.8.8-R0.1" `
-    -JarFile ".\provided\pulsespigot-api-1.8.8-R0.1-SNAPSHOT.jar"
-
+    -JarFile ".\provided\pulse-spigot-api-1.8.8-R0.1.jar"
 
 Write-Host "Repository was updated successfully."
