@@ -74,7 +74,7 @@ Add-MavenArtifact `
     -JarFile ".\provided\volcano-api-1.0.jar"
 
 Add-MavenArtifact `
-    -GroupId "aqua.core" `
+    -GroupId "me.activated.core" `
     -ArtifactId "AquaCoreAPI" `
     -Version "2.2.7" `
     -JarFile ".\provided\aqua-core-api-1.0.jar"
