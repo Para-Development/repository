@@ -91,4 +91,10 @@ Add-MavenArtifact `
     -Version "1.0" `
     -JarFile ".\provided\HeatherAPI-1.0-SNAPSHOT.jar"
 
+Add-MavenArtifact `
+    -GroupId "rip.kuda" `
+    -ArtifactId "HeatherAPI" `
+    -Version "1.0.1" `
+    -JarFile ".\provided\HeatherAPI-1.0.1.jar"
+
 Write-Host "Repository was updated successfully."
